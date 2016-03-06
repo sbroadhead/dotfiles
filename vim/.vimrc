@@ -89,4 +89,9 @@ endif
 
 inoremap <C-U> <C-G>u<C-U>
 
+noremap  <buffer> <silent> k gk
+noremap  <buffer> <silent> j gj
+noremap  <buffer> <silent> 0 g0
+noremap  <buffer> <silent> $ g$
+
 " vim:set ft=vim et sw=2:
